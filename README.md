@@ -17,5 +17,9 @@ UPDATE a book:
 DELETE a book: 
     DELETE http://localhost:5000/books/{id}
     
-    
+port forwarding 
+
+kubectl port-forward <deployment pod name>  8080:5000 -n <namespace> 
+8080:5000
+serviceport: container port which app is running on
 ###
